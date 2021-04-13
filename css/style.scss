@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import "fonts.scss";
+
+$blue: #00568F;
+$red: #B22826;
+*{margin:0;padding:0;}
+body{
+    box-sizing: border-box;
+    padding: 0 !important; 
+    font-size: 18px; 
+    line-height: 1.6;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Core Sans G';
+    font-weight: normal;
+    color: #000000; 
+    h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
+        text-decoration: none !important;      
+        transition: .3s all; 
+        margin-bottom: 0;  
+        outline: none !important;  
+    }  
+	.container{
+		max-width: 1200px; 
+	}
+	input {
+		padding: 0 15px;  
+		outline: none;
+		color: #000000;
+	} 
+	input, button { 
+		transition: .3s all !important;
+	} 
+	p {
+		margin-bottom: 0;
+	}
+    a {
+        color: #333333;
+    }
+}
+.slick-slider {
+    margin-bottom: 0;
+}
+@import "layer.scss";
+
+.slide-banner {
+    .item-slide {
+        position: relative;
+        .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+    h3 {
+        line-height: inherit;
+        font-size: 44px;
+        font-weight: 600;
+        color: $red;
+    }
+    h2 {
+        font-size: 44px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: $blue;
+    }
+    .desc {
+        margin-bottom: 24px;
+    }
+}
+.btn-hotline {
+    a {
+        display: inline-flex;
+        height: 45px;
+        padding: 0 28px;
+        color: #fff;
+        align-items: center;
+        background: $red;
+        border: 1px solid $red;
+        font-weight: 600;
+        &:hover {
+            color: $red;
+            background: #fff;
+        }
+    }
+}
+.slick-dots {
+    position: absolute;
+    bottom: 15px;
+    li {
+        width: 12px;
+        height: 12px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 100%;
+        position: relative;
+        margin: 0 8px;
+        &:after {
+            content: "";
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            border: 1px solid #fff;
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            transition: .4s all;
+            opacity: 0;
+        }
+        &.slick-active {
+            background: #fff;
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+    button {
+        display: none !important;
+    }
+}
+.box-about {
+    padding: 40px 0 60px 0;
+    .desc {
+        margin-bottom: 24px;
+    }
+}
+.title-about {
+    margin-bottom: 40px;
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: $red;
+        position: relative;
+        span {
+            background: #fff;
+            padding-right: 20px;
+            position: relative;
+            z-index: 2;
+        }
+        &:after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #00568F 0%, #B22826 100%);
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+        &:before {
+            content: url('../images/i-title.png');
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: #fff;
+            z-index: 2;
+            padding-left: 10px;
+        }
+    }
+}
+.videoabout {
+    position: relative;
+    .icon-play {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.btn-page {
+    a {
+        display: inline-flex;
+        height: 48px;
+        align-items: center;
+        background: $red;
+        border: 1px solid $red;
+        color: #fff;
+        padding: 0 25px;
+        &:hover {
+            color: $red;
+            background: #fff;
+        }
+    }
+}
+.txt-about {
+    line-height: 1.5;
+}
+.modal-popup {
+    .modal-dialog {
+        max-width: 1000px;
+    }
+}
+.content-popup {
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.item-new-home {
+    .avarta {
+        position: relative;
+        margin-bottom: 6px;
+        span {
+            font-size: 12px;
+            background: #00568F;
+            color: #fff;
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            padding: 0 15px;
+            pointer-events: none;
+        }
+    }
+    .info {
+        a {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+.auther-date {
+    margin-bottom: 10px;
+    ul {
+        list-style: none;
+        font-size: 12px;
+        font-weight: normal;
+        display: flex;
+        justify-content: space-between;
+        color: $blue;
+        li {
+            span {
+                color: #999999;
+            }
+        }
+    }
+}
+.tab-content {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+.box-tab-news {
+    padding-bottom: 60px;
+}
+.box-qc {
+    padding-bottom: 20px;
+    .row {
+        margin: 0 -10px;
+        .col-md-6 {
+            padding: 0 10px;
+        }
+    }
+}
+.box-rule {
+    padding: 20px 0;
+}
+.slide-rule {
+    .item-slide {
+        position: relative;
+    }
+}
+.caption-rule {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.item-rule {
+    h3 {
+        font-size: 32px;
+        font-weight: bold;
+        color: $red;
+        margin-bottom: 20px;
+    }
+}
+
+.box-service {
+    background-size: cover !important;
+    padding: 60px 0;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    li {
+        padding: 0 50px;
+        position: relative;
+        a {
+            color: #BDBDBD;
+        }
+        &:after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: #BDBDBD;
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            transition: .4s all !important;
+        }
+        &.active, &:hover {
+            a {
+                color: $red;
+            }
+            &:after {
+                background: $red;
+            }
+        }
+    }
+}

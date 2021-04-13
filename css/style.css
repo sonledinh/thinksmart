@@ -1,0 +1,503 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Black.woff2") format("woff2"), url("../fonts/core/CoreSansG-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-BlackItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-BoldItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Bold.woff2") format("woff2"), url("../fonts/core/CoreSansG-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-ExtraLight.woff2") format("woff2"), url("../fonts/core/CoreSansG-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-ExtraLightItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-ExtraBold.woff2") format("woff2"), url("../fonts/core/CoreSansG-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-LightItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Light.woff2") format("woff2"), url("../fonts/core/CoreSansG-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Italic.woff2") format("woff2"), url("../fonts/core/CoreSansG-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-MediumItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Medium.woff2") format("woff2"), url("../fonts/core/CoreSansG-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Outline.woff2") format("woff2"), url("../fonts/core/CoreSansG-Outline.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Regular.woff2") format("woff2"), url("../fonts/core/CoreSansG-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-Thin.woff2") format("woff2"), url("../fonts/core/CoreSansG-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Core Sans G";
+  src: url("../fonts/core/CoreSansG-ThinItalic.woff2") format("woff2"), url("../fonts/core/CoreSansG-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 !important;
+  font-size: 18px;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Core Sans G";
+  font-weight: normal;
+  color: #000000;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body ul, body li, body .card, body a {
+  text-decoration: none !important;
+  transition: 0.3s all;
+  margin-bottom: 0;
+  outline: none !important;
+}
+body .container {
+  max-width: 1200px;
+}
+body input {
+  padding: 0 15px;
+  outline: none;
+  color: #000000;
+}
+body input, body button {
+  transition: 0.3s all !important;
+}
+body p {
+  margin-bottom: 0;
+}
+body a {
+  color: #333333;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.header-menu {
+  padding: 30px 0;
+  font-weight: 600;
+}
+.header-menu a {
+  color: #00568F;
+}
+
+.h-menu ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.h-menu ul .fa-home {
+  font-size: 30px;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+.content-footer {
+  font-size: 14px;
+}
+.content-footer ul {
+  list-style: none;
+}
+.content-footer ul li {
+  margin-bottom: 5px;
+}
+.content-footer ul a {
+  color: #00568F;
+}
+.content-footer .logo {
+  margin-bottom: 20px;
+}
+
+.title-ft {
+  font-size: 18px;
+  font-weight: 600;
+  color: #B22826;
+  margin-bottom: 18px;
+}
+
+.fanpage {
+  margin-bottom: 20px;
+}
+
+.slide-banner .item-slide {
+  position: relative;
+}
+.slide-banner .item-slide .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.slide-banner h3 {
+  line-height: inherit;
+  font-size: 44px;
+  font-weight: 600;
+  color: #B22826;
+}
+.slide-banner h2 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #00568F;
+}
+.slide-banner .desc {
+  margin-bottom: 24px;
+}
+
+.btn-hotline a {
+  display: inline-flex;
+  height: 45px;
+  padding: 0 28px;
+  color: #fff;
+  align-items: center;
+  background: #B22826;
+  border: 1px solid #B22826;
+  font-weight: 600;
+}
+.btn-hotline a:hover {
+  color: #B22826;
+  background: #fff;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 15px;
+}
+.slick-dots li {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  position: relative;
+  margin: 0 8px;
+}
+.slick-dots li:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  transition: 0.4s all;
+  opacity: 0;
+}
+.slick-dots li.slick-active {
+  background: #fff;
+}
+.slick-dots li.slick-active:after {
+  opacity: 1;
+}
+.slick-dots button {
+  display: none !important;
+}
+
+.box-about {
+  padding: 40px 0 60px 0;
+}
+.box-about .desc {
+  margin-bottom: 24px;
+}
+
+.title-about {
+  margin-bottom: 40px;
+}
+.title-about h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #B22826;
+  position: relative;
+}
+.title-about h2 span {
+  background: #fff;
+  padding-right: 20px;
+  position: relative;
+  z-index: 2;
+}
+.title-about h2:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #00568F 0%, #B22826 100%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.title-about h2:before {
+  content: url("../images/i-title.png");
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  padding-left: 10px;
+}
+
+.videoabout {
+  position: relative;
+}
+.videoabout .icon-play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-page a {
+  display: inline-flex;
+  height: 48px;
+  align-items: center;
+  background: #B22826;
+  border: 1px solid #B22826;
+  color: #fff;
+  padding: 0 25px;
+}
+.btn-page a:hover {
+  color: #B22826;
+  background: #fff;
+}
+
+.txt-about {
+  line-height: 1.5;
+}
+
+.modal-popup .modal-dialog {
+  max-width: 1000px;
+}
+
+.content-popup iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.item-new-home .avarta {
+  position: relative;
+  margin-bottom: 6px;
+}
+.item-new-home .avarta span {
+  font-size: 12px;
+  background: #00568F;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  pointer-events: none;
+}
+.item-new-home .info a {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.auther-date {
+  margin-bottom: 10px;
+}
+.auther-date ul {
+  list-style: none;
+  font-size: 12px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  color: #00568F;
+}
+.auther-date ul li span {
+  color: #999999;
+}
+
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+
+.box-tab-news {
+  padding-bottom: 60px;
+}
+
+.box-qc {
+  padding-bottom: 20px;
+}
+.box-qc .row {
+  margin: 0 -10px;
+}
+.box-qc .row .col-md-6 {
+  padding: 0 10px;
+}
+
+.box-rule {
+  padding: 20px 0;
+}
+
+.slide-rule .item-slide {
+  position: relative;
+}
+
+.caption-rule {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item-rule h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #B22826;
+  margin-bottom: 20px;
+}
+
+.box-service {
+  background-size: cover !important;
+  padding: 60px 0;
+}
+
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.tabs li {
+  padding: 0 50px;
+  position: relative;
+}
+.tabs li a {
+  color: #BDBDBD;
+}
+.tabs li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #BDBDBD;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  transition: 0.4s all !important;
+}
+.tabs li.active a, .tabs li:hover a {
+  color: #B22826;
+}
+.tabs li.active:after, .tabs li:hover:after {
+  background: #B22826;
+}
+
+/*# sourceMappingURL=style.css.map */
