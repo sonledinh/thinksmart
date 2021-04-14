@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<main>
+<main style="background: #fff">
 	<section class="banner">
 		<div class="slide-banner">
 			<div class="item-slide">
@@ -233,18 +233,6 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-qc">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="item-qc"><a href="" target="_blank"><img src="images/qc.png" class="img-fluid" alt=""></a></div>
-				</div> 
-				<div class="col-md-6">
-					<div class="item-qc"><a href="" target="_blank"><img src="images/qc.png" class="img-fluid" alt=""></a></div>
-				</div> 
-			</div>
-		</div>
-	</section>
 	<section class="box-service" style="background: url('images/bn-service.jpg');">
 		<div class="container">
 			<div class="row">
@@ -273,41 +261,35 @@
 							Bằng việc cung cấp ý kiến pháp lý, Trung tâm có nhiệm vụ giúp khách hàng làm rõ, xác định chính xác vấn đề pháp lý mà khách hàng đang gặp phải và tư vấn định hướng các phương án giải quyết vấn đề đó. Ngoài ra, Trung tâm có trách nhiệm tư vấn, giới thiệu đến khách hàng những sản phẩm, dịch vụ pháp luật khác của ThinkSmart để giải quyết vấn đề, vướng mắc nhằm bảo đảm tốt nhất quyền và lợi ích hợp pháp của khách hàng.
 						</div> 
 						<div class="box-new-hot">
-							<div class="list-new-hot">
-								<div class="title-hot text-center">Bài viết nổi bật</div>
-								<div class="row align-items-center">
-									<div class="col-md-4">
-										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
-											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
-												<p>Ngày đăng: 31/03/2021</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
-											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
-												<p>Ngày đăng: 31/03/2021</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
-											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
-												<p>Ngày đăng: 31/03/2021</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 							<div class="list-new-hot hot-other">
-								<div class="title-hot text-center">Bài viết khác</div>
 								<div class="row align-items-center">
+									<div class="col-md-4">
+										<div class="item-hot">
+											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="info">
+												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<p>Ngày đăng: 31/03/2021</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-hot">
+											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="info">
+												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<p>Ngày đăng: 31/03/2021</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-hot">
+											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="info">
+												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<p>Ngày đăng: 31/03/2021</p>
+											</div>
+										</div>
+									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
 											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
@@ -363,7 +345,7 @@
 										</div>
 									</div>
 									<div class="col-md-12">
-										<div class="btn-readmore-hot text-center"><a href="">Xem thêm các bài viết khác</a></div>
+										<div class="btn-readmore-hot text-center"><a href="">Xem toàn bộ</a></div>
 									</div>
 								</div>
 							</div>
@@ -373,6 +355,18 @@
 			</div>
 		</div>
 	</section> 
+	<section class="box-qc">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="item-qc"><a href="" target="_blank"><img src="images/qc.png" class="img-fluid" alt=""></a></div>
+				</div> 
+				<div class="col-md-6">
+					<div class="item-qc"><a href="" target="_blank"><img src="images/qc.png" class="img-fluid" alt=""></a></div>
+				</div> 
+			</div>
+		</div>
+	</section>
 	<section class="box-rule">
 		<div class="slide-rule">
 			<div class="item-slide">
