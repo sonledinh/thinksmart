@@ -14,7 +14,7 @@ body{
     line-height: 1.6;
     position: relative;
     overflow-x: hidden;
-    font-family: 'Core Sans G';
+    font-family: 'Core Sans G'; 
     font-weight: normal;
     color: #000000; 
     h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
@@ -22,7 +22,7 @@ body{
         transition: .3s all; 
         margin-bottom: 0;  
         outline: none !important;  
-    }  
+    }   
 	.container{
 		max-width: 1200px; 
 	}
@@ -296,8 +296,90 @@ body{
 .box-service {
     background-size: cover !important;
     padding: 60px 0;
+    color: #fff;
+    .right {
+        padding-left: 60px;
+        .desc {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 20px 0 40px 0; 
+        }
+    }
+}
+.title-srv {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+.side-srv {
+    margin-top: 80px;
+    ul {
+        list-style: none;
+        li {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    }
+    a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        padding: 7px;
+        &.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    }
 }
 
+.title-hot {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn-readmore-hot {
+    margin-top: 25px;
+    a {
+        font-size: 18px;
+        color: #fff;
+        height: 48px;
+        display: inline-flex;
+        border: 1px solid #fff;
+        align-items: center;
+        padding: 0 30px;
+        font-weight: 600;
+        &:hover {
+            color: $red;
+            background: #fff;
+        }
+    }
+}
+.item-hot {
+    display: flex;
+    .avarta {
+        flex: 0 0 62px;
+        margin-right: 8px;
+    }
+    .info {
+        a {
+            display: block;
+            color: #fff;
+            font-size: 15px;
+        }
+        p {
+            color: #BDBDBD;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    }
+}
+.hot-other {
+    margin-top: 50px;
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
 .tabs {
     list-style: none;
     display: flex;
