@@ -4,7 +4,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="itme-ft">
-							<div class="logo"><a href=""><img src="images/logo.png" class="img-fluid " alt=""></a></div>
+							<div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid " alt=""></a></div>
 							<div class="info-ft">
 								<ul>
 									<li>Địa chỉ: P1001 tầng 10 tòa nhà CT3-3, Khu đô thị Mễ Trì Hạ, quận Nam Từ Liêm, Hà Nội</li>
@@ -57,8 +57,8 @@
 	<!--Link js--> 
 
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>  
-	<script type="text/javascript" src="js/paralax.js"></script>  
 	<script type="text/javascript" src="js/private.js"></script> 
 </body>
 </html> 

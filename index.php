@@ -73,7 +73,7 @@
 							<div class="desc">
 								<p>Trung tâm tư vấn luật trực tuyến là một Bộ phận nghiệp vụ của Công ty luật TNHH ThinkSmart. Trung tâm có chức năng cung cấp dịch vụ tư vấn pháp luật đến khách hàng, cụ thể thông qua cuộc gọi đến Tổng đài 1900636391 của Trung tâm, khách hàng sẽ kết nối với Luật sư của ThinkSmart và nhận được ý kiến pháp lý nhằm giải quyết các vướng mắc, các vấn đề pháp lý khách hàng đang gặp phải. Bằng việc cung cấp ý kiến pháp lý, Trung tâm có nhiệm vụ giúp khách hàng làm rõ, xác định chính xác vấn đề pháp lý mà khách hàng đang gặp phải và tư vấn định hướng các phương án giải quyết vấn đề đó. Ngoài ra, Trung tâm có trách nhiệm tư vấn, giới thiệu đến khách hàng những sản phẩm, dịch vụ pháp luật khác của ThinkSmart để giải quyết vấn đề,</p>
 							</div>
-							<div class="btn-page"><a href="">Xem thêm</a></div>
+							<div class="btn-page"><a href="about.php">Xem thêm</a></div>
 						</div>
 					</div>
 					<div class="col-md-7">
@@ -109,9 +109,9 @@
 				<div class="tab-content active" id="tab-1">
 					<div class="list-news-home">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -119,13 +119,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -133,13 +133,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -147,13 +147,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>ĐỌC</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -161,7 +161,7 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
@@ -171,9 +171,9 @@
 				<div class="tab-content" id="tab-2">
 					<div class="list-news-home">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -181,13 +181,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -195,13 +195,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -209,13 +209,13 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="item-new-home">
-									<div class="avarta"><a href=""><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
+									<div class="avarta"><a href="detail.php"><img src="images/new-home.png" class="img-fluid w-100" alt=""><span>hot</span></a></div>
 									<div class="info">
 										<div class="auther-date">
 											<ul>
@@ -223,7 +223,7 @@
 												<li><span>31/03/2021</span></li>
 											</ul>
 										</div>
-										<h3><a href="">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
+										<h3><a href="detail.php">ThinkSmart cam kết bảo vệ tốt nhất quyền và lợi ích hợp pháp của</a></h3>
 									</div>
 								</div>
 							</div>
@@ -241,15 +241,15 @@
 						<div class="title-srv">Dịch vụ của <br>chúng tôi</div>
 						<div class="side-srv">
 							<ul>
-								<li><a href="" class="active">Doanh nghiệp - Đầu tư</a></li>
-								<li><a href="">Hình sự</a></li>
-								<li><a href="">Hôn nhân - Gia đình</a></li>
-								<li><a href="">Sỡ hữu trí tuệ</a></li>
-								<li><a href="">Dân sự - Thừa kế - Hợp đồng</a></li>
-								<li><a href="">Lao động - Bảo hiểm</a></li>
-								<li><a href="">Đất đai - Xây dựng - Nhà ở</a></li>
-								<li><a href="">Hành chính</a></li>
-								<li><a href="">Các lĩnh vực pháp luật khác</a></li>
+								<li><a href="category.php" class="active">Doanh nghiệp - Đầu tư</a></li>
+								<li><a href="category.php">Hình sự</a></li>
+								<li><a href="category.php">Hôn nhân - Gia đình</a></li>
+								<li><a href="category.php">Sỡ hữu trí tuệ</a></li>
+								<li><a href="category.php">Dân sự - Thừa kế - Hợp đồng</a></li>
+								<li><a href="category.php">Lao động - Bảo hiểm</a></li>
+								<li><a href="category.php">Đất đai - Xây dựng - Nhà ở</a></li>
+								<li><a href="category.php">Hành chính</a></li>
+								<li><a href="category.php">Các lĩnh vực pháp luật khác</a></li>
 							</ul>
 						</div>
 					</div>
@@ -265,87 +265,87 @@
 								<div class="row align-items-center">
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="item-hot">
-											<div class="avarta"><a href=""><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
+											<div class="avarta"><a href="detail.php"><img src="images/hot.png" class="img-fluid w-100" alt=""></a></div>
 											<div class="info">
-												<h4><a href="">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
+												<h4><a href="detail.php">Quy định mới nhất về thi hành án tử hình bằng hình thức tiêm thuốc...</a></h4>
 												<p>Ngày đăng: 31/03/2021</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-12">
-										<div class="btn-readmore-hot text-center"><a href="">Xem toàn bộ</a></div>
+										<div class="btn-readmore-hot text-center"><a href="category.php">Xem toàn bộ</a></div>
 									</div>
 								</div>
 							</div>
